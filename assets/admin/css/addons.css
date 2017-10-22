@@ -1,0 +1,68 @@
+/*
+Admin css
+*/
+
+	
+.user-profile-addons {
+  margin: 40px 0;
+}
+	
+.user-profile-addons .single {
+  background: none repeat scroll 0 0 rgb(255, 255, 255);
+  border: 1px solid rgb(221, 221, 221);
+  display: inline-block;
+  margin: 20px 10px;
+  overflow: hidden;
+  padding: 0 0 15px;
+  vertical-align: top;
+  width: 325px;
+}
+	
+.user-profile-addons .thumb {
+  max-height: 180px;
+  overflow: hidden;
+}
+.user-profile-addons .thumb img {
+  width: 100%;
+}
+.user-profile-addons .title {
+  font-size: 16px;
+  margin: 15px 0;
+  padding: 0 8px;
+}
+.user-profile-addons .title a{
+text-decoration:none;
+}
+
+
+.user-profile-addons .content {
+  font-size: 13px;
+  margin: 8px 0;
+  padding: 0 8px;
+}
+
+.user-profile-addons .meta {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+
+.user-profile-addons .meta a{
+	text-decoration:none;
+}
+
+.user-profile-addons .version {
+
+}
+	
+.user-profile-addons .download {
+  background: #42b1ff none repeat scroll 0 0;
+  border-radius: 2px;
+  float: right;
+  padding: 3px 10px;
+}	
+	
+
+.user-profile-addons .download a{
+  color: #fff;
+}

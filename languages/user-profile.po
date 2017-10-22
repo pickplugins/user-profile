@@ -1,0 +1,361 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: User profile\n"
+"POT-Creation-Date: 2017-03-03 16:51+0600\n"
+"PO-Revision-Date: 2017-03-03 16:52+0600\n"
+"Last-Translator: \n"
+"Language-Team: PickPlugins <support@pickplugins.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: templates\n"
+"X-Poedit-SearchPath-1: includes\n"
+
+#: includes/classes/class-functions.php:43
+msgid "Post"
+msgstr ""
+
+#: includes/classes/class-functions.php:48
+msgid "About"
+msgstr ""
+
+#: includes/classes/class-functions.php:53
+msgid "Followers"
+msgstr ""
+
+#: includes/classes/class-functions.php:58
+#: includes/classes/class-functions.php:647
+#: includes/classes/class-functions.php:784
+#: templates/user-profile/header-follow-button.php:44
+msgid "Following"
+msgstr ""
+
+#: includes/classes/class-functions.php:146
+msgid "No post found."
+msgstr ""
+
+#: includes/classes/class-functions.php:241
+#: templates/user-profile-edit/user-profile-edit-basic-info.php:115
+msgid "Basic Info"
+msgstr ""
+
+#: includes/classes/class-functions.php:249
+msgid "Gender:"
+msgstr ""
+
+#: includes/classes/class-functions.php:259
+msgid "Relationship:"
+msgstr ""
+
+#: includes/classes/class-functions.php:268
+msgid "Religious:"
+msgstr ""
+
+#: includes/classes/class-functions.php:272
+msgid "Birth date:"
+msgstr ""
+
+#: includes/classes/class-functions.php:276
+msgid "Website:"
+msgstr ""
+
+#: includes/classes/class-functions.php:287
+#: templates/user-profile-edit/user-profile-edit-contacts.php:62
+msgid "Contacts"
+msgstr ""
+
+#: includes/classes/class-functions.php:346
+#: templates/user-profile-edit/user-profile-edit-education.php:59
+msgid "Education"
+msgstr ""
+
+#: includes/classes/class-functions.php:412
+#: includes/classes/class-functions.php:500
+msgid "Running."
+msgstr ""
+
+#: includes/classes/class-functions.php:436
+#: templates/user-profile-edit/user-profile-edit-work.php:51
+msgid "Work"
+msgstr ""
+
+#: includes/classes/class-functions.php:525
+#: templates/user-profile-edit/user-profile-edit-places.php:55
+msgid "Places"
+msgstr ""
+
+#: includes/classes/class-functions.php:540
+msgid "Click to delete."
+msgstr ""
+
+#: includes/classes/class-functions.php:597
+#, php-format
+msgid "Total following: %s"
+msgstr ""
+
+#: includes/classes/class-functions.php:653
+#: includes/classes/class-functions.php:790
+#: templates/user-profile/header-follow-button.php:26
+#: templates/user-profile/header-follow-button.php:50
+#: templates/user-profile/header-message-button.php:26
+msgid "Follow"
+msgstr ""
+
+#: includes/classes/class-functions.php:733
+#, php-format
+msgid "Total follower: %s"
+msgstr ""
+
+#: includes/classes/class-functions.php:812
+msgid "No follower found"
+msgstr ""
+
+#: includes/classes/class-functions.php:904
+msgid "Male"
+msgstr ""
+
+#: includes/classes/class-functions.php:911
+msgid "Female"
+msgstr ""
+
+#: includes/classes/class-functions.php:916
+msgid "Others"
+msgstr ""
+
+#: includes/classes/class-functions.php:934
+msgid "Single"
+msgstr ""
+
+#: includes/classes/class-functions.php:939
+msgid "Engaged"
+msgstr ""
+
+#: includes/classes/class-functions.php:944
+msgid "In a relationship"
+msgstr ""
+
+#: includes/classes/class-functions.php:949
+msgid "Married"
+msgstr ""
+
+#: includes/classes/class-functions.php:954
+msgid "Separated"
+msgstr ""
+
+#: includes/classes/class-functions.php:959
+msgid "Divorced"
+msgstr ""
+
+#: includes/classes/class-functions.php:963
+msgid "Widowed"
+msgstr ""
+
+#: includes/classes/class-functions.php:982
+msgid "None"
+msgstr ""
+
+#: includes/classes/class-settings.php:20
+msgid "User Profile"
+msgstr ""
+
+#: includes/classes/class-settings.php:23
+msgid "Help"
+msgstr ""
+
+#: includes/classes/class-settings.php:24
+msgid "Add-on"
+msgstr ""
+
+#: includes/functions.php:55
+msgid "You can't follow userself."
+msgstr ""
+
+#: includes/functions.php:110
+msgid "Please login first."
+msgstr ""
+
+#: includes/menus/addons.php:80
+msgid "Version:"
+msgstr ""
+
+#: includes/menus/addons.php:84
+msgid "Free"
+msgstr ""
+
+#: includes/menus/addons.php:90
+msgid "Price:"
+msgstr ""
+
+#: includes/menus/addons.php:91
+msgid "Download"
+msgstr ""
+
+#: includes/menus/addons.php:129
+#, php-format
+msgid "%s - Addons"
+msgstr ""
+
+#: includes/menus/help.php:21
+#, php-format
+msgid "%s Help"
+msgstr ""
+
+#: includes/menus/settings.php:30
+msgid "User profile page"
+msgstr ""
+
+#: includes/menus/settings.php:31
+msgid ""
+"Select user profile page where the shortcode placed <pre>[user_profile]</pre>"
+msgstr ""
+
+#: includes/menus/settings.php:37
+msgid "User profile edit page"
+msgstr ""
+
+#: includes/menus/settings.php:38
+msgid ""
+"Select user profile edit page where the shortcode placed "
+"<pre>[user_profile_edit]</pre>"
+msgstr ""
+
+#: includes/menus/settings.php:51
+msgid "Pages"
+msgstr ""
+
+#: includes/menus/settings.php:126 includes/menus/settings.php:135
+#: includes/menus/settings.php:140
+msgid "Remove"
+msgstr ""
+
+#: includes/menus/settings.php:144
+msgid "Add more"
+msgstr ""
+
+#: includes/menus/settings.php:215
+msgid "Choose File"
+msgstr ""
+
+#: includes/menus/settings.php:341
+#, php-format
+msgid "%s Settings"
+msgstr ""
+
+#: templates/user-profile-edit/user-profile-edit-basic-info.php:40
+#: templates/user-profile-edit/user-profile-edit-contacts.php:37
+#: templates/user-profile-edit/user-profile-edit-education.php:33
+#: templates/user-profile-edit/user-profile-edit-places.php:33
+#: templates/user-profile-edit/user-profile-edit-work.php:32
+msgid "Saved successful."
+msgstr ""
+
+#: templates/user-profile-edit/user-profile-edit-basic-info.php:127
+msgid "First name"
+msgstr ""
+
+#: templates/user-profile-edit/user-profile-edit-basic-info.php:132
+msgid "Last name"
+msgstr ""
+
+#: templates/user-profile-edit/user-profile-edit-basic-info.php:142
+msgid "Birth date"
+msgstr ""
+
+#: templates/user-profile-edit/user-profile-edit-basic-info.php:149
+msgid "Relationsship"
+msgstr ""
+
+#: templates/user-profile-edit/user-profile-edit-basic-info.php:178
+msgid "Gender"
+msgstr ""
+
+#: templates/user-profile-edit/user-profile-edit-basic-info.php:212
+msgid "Religious"
+msgstr ""
+
+#: templates/user-profile-edit/user-profile-edit-basic-info.php:219
+msgid "Website"
+msgstr ""
+
+#: templates/user-profile-edit/user-profile-edit-basic-info.php:226
+#: templates/user-profile-edit/user-profile-edit-contacts.php:152
+#: templates/user-profile-edit/user-profile-edit-education.php:144
+#: templates/user-profile-edit/user-profile-edit-places.php:118
+#: templates/user-profile-edit/user-profile-edit-work.php:135
+msgid "Update"
+msgstr ""
+
+#: templates/user-profile-edit/user-profile-edit-contacts.php:79
+#: templates/user-profile-edit/user-profile-edit-education.php:69
+#: templates/user-profile-edit/user-profile-edit-places.php:65
+#: templates/user-profile-edit/user-profile-edit-work.php:62
+msgid "Add"
+msgstr ""
+
+#: templates/user-profile-edit/user-profile-edit-contacts.php:94
+#: templates/user-profile-edit/user-profile-edit-education.php:115
+#: templates/user-profile-edit/user-profile-edit-places.php:80
+#: templates/user-profile-edit/user-profile-edit-work.php:107
+msgid "Delete"
+msgstr ""
+
+#: templates/user-profile-edit/user-profile-edit-contacts.php:95
+#: templates/user-profile-edit/user-profile-edit-education.php:116
+#: templates/user-profile-edit/user-profile-edit-places.php:81
+#: templates/user-profile-edit/user-profile-edit-work.php:108
+msgid "Sort"
+msgstr ""
+
+#: templates/user-profile-edit/user-profile-edit-contacts.php:96
+#: templates/user-profile-edit/user-profile-edit-places.php:82
+msgid "Location"
+msgstr ""
+
+#: templates/user-profile-edit/user-profile-edit-contacts.php:97
+#: templates/user-profile-edit/user-profile-edit-places.php:83
+msgid "Address"
+msgstr ""
+
+#: templates/user-profile-edit/user-profile-edit-education.php:117
+msgid "School/College/University"
+msgstr ""
+
+#: templates/user-profile-edit/user-profile-edit-education.php:118
+msgid "Degree"
+msgstr ""
+
+#: templates/user-profile-edit/user-profile-edit-education.php:119
+#: templates/user-profile-edit/user-profile-edit-work.php:111
+msgid "Start date"
+msgstr ""
+
+#: templates/user-profile-edit/user-profile-edit-education.php:120
+#: templates/user-profile-edit/user-profile-edit-work.php:112
+msgid "End date"
+msgstr ""
+
+#: templates/user-profile-edit/user-profile-edit-education.php:121
+#: templates/user-profile-edit/user-profile-edit-work.php:113
+msgid "Running"
+msgstr ""
+
+#: templates/user-profile-edit/user-profile-edit-work.php:109
+msgid "Position"
+msgstr ""
+
+#: templates/user-profile-edit/user-profile-edit-work.php:110
+msgid "Company"
+msgstr ""
+
+#: templates/user-profile-edit/user-profile-edit.php:36
+msgid "Please login to access."
+msgstr ""
+
+#: templates/user-profile/header-message-button.php:43
+msgid "Message"
+msgstr ""

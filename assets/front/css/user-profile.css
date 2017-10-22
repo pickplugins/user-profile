@@ -1,0 +1,468 @@
+@charset "utf-8";
+/* CSS Document */
+
+.user-profile{}
+
+.user-profile .profile-header {
+	position: relative;
+}
+.user-profile .profile-header .cover {
+	max-height: 350px;
+	overflow: hidden;
+}
+
+.user-profile .profile-header .cover .cover-thumb-overlay {
+	background: rgba(0, 0, 0, 0) linear-gradient(rgba(232, 232, 232, 0) 50%, rgba(10, 10, 10, 0.52)) repeat scroll 0 0;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.user-profile .profile-header .cover .cover-thumb{
+
+}
+
+.user-profile .profile-header .cover .cover-thumb img {
+	width: 100%;
+}
+
+
+
+.user-profile .profile-header .cover .cover-upload {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	background: #ddd;
+	text-align: center;
+	cursor: pointer;
+	transform: scale(0);
+}
+
+.user-profile .profile-header .cover:hover .cover-upload {
+transform: scale(1);
+}
+
+
+
+
+
+.user-profile .profile-header .thumb {
+	position: absolute;
+	bottom: -30px;
+	left: 30px;
+	border: 3px solid #fff;
+	border-radius: 3px;
+	box-shadow: 0 0 6px -1px rgba(0,0,0,0.3);
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+}
+
+.user-profile .profile-header .thumb .profile-avatar {
+	background: #fff;
+}
+.user-profile .profile-header .thumb .thumb-upload {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 30px;
+	height: 30px;
+	background: #b0adad;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	transform: scale(0);
+}
+
+.user-profile .profile-header .thumb:hover .thumb-upload {
+
+transform: scale(1);
+}
+
+
+.user-profile .profile-header .thumb img {
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+
+.user-profile .profile-header .name {
+	position: absolute;
+	left: 250px;
+	bottom: 20px;
+	font-size: 30px;
+	color: #fff;
+	text-shadow: 0 1px 10px #000;
+	font-weight: bold;
+}
+
+.user-profile .profile-header .follow {
+	border: 1px solid #fff;
+	border-radius: 21px;
+	bottom: 20px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 14px;
+	min-width: 62px;
+	padding: 6px 25px;
+	position: absolute;
+	right: 20px;
+	text-align: center;
+}
+
+
+.user-profile .profile-header .follow.following {
+	background: #32b9ff;
+	color: #fff;
+}
+.user-profile .profile-header .follow.unfollow{}
+
+
+
+
+.user-profile .profile-header-navs {
+	padding-left: 260px;
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	background: #ddd3;
+}
+
+.user-profile .profile-header-navs a {
+	padding: 12px 20px;
+	display: inline-block;
+	text-decoration: none;
+	color: #666;
+	font-size: 14px;
+	border-right: 1px solid #ddd;
+}
+.user-profile .profile-header-navs a:hover, .user-profile .profile-header-navs a.active {
+	background: #e7e7e780;
+}
+
+
+.user-profile .profile-header-navs a:last-child {
+	border-right: none;
+}
+
+
+.user-profile .navs-content {
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.user-profile .navs-content .nav-content {
+	display: none;
+}
+
+.user-profile .navs-content .nav-content.active {
+	display: block;
+}
+
+
+.user-profile .navs-content .nav-content .basic-info {
+	width: 30%;
+	background: #32b9ff4d;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.user-profile .navs-content .nav-content .basic-info .container {
+	/* width: 30%; */
+	background: #dddddd4d;
+	padding: 15px;
+}
+
+.user-profile .navs-content .nav-content .item {
+	font-size: 13px;
+	margin: 5px 0px;
+}
+
+.user-profile .navs-content .nav-content .other-info {
+	width: 69%;
+	display: inline-block;
+}
+
+
+.user-profile .navs-content .nav-content .other-info .container {
+	/* width: 30%; */
+	padding: 0 40px;
+}
+
+
+
+
+
+
+
+.user-profile .user-posts .single {
+	margin: 25px 0;
+}
+
+.user-profile .user-posts .single .title {
+	font-size: 15px;
+	font-weight: bold;
+	margin: 5px 0;
+}
+.user-profile .user-posts .single .excerpt {
+	font-size: 13px;
+}
+
+.user-profile .user-posts .single .date {
+	font-size: 13px;
+}
+
+.user-profile .paginate{}
+
+.user-profile .paginate .page-numbers {
+	padding: 6px 12px;
+	background: #ddd;
+	text-decoration: none;
+}
+
+.user-profile .paginate .page-numbers.current {
+	background: #dddddd80;
+}
+
+
+.user-profile .toast {
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	min-width: 300px;
+	min-height: 50px;
+	/* background: #fff; */
+	border-radius: 3px;
+	box-shadow: 0 0 2px 0px rgba(0,0,0,0.3);
+	display: none;
+	padding: 10px;
+	background: #666;
+	color: #fff;
+}
+
+
+.user-profile .follower-list {
+	text-align: center;
+}
+
+.user-profile .follower-list .single {
+	display: inline-block;
+	width: 250px;
+	position: relative;
+	margin: 15px 15px;
+	background: #dddddd4d;
+	padding-bottom: 22px;
+	border-radius: 4px;
+	/* box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.13); */
+	border: 1px solid #ddd6;
+	padding: 15px;
+}
+
+.user-profile .follower-list .cover {
+	height: 90px;
+	overflow: hidden;
+}
+.user-profile .follower-list .single .thumb {
+	width: 60px;
+	border-radius: 50%;
+	height: 60px;
+	overflow: hidden;
+	position: absolute;
+	top: 72px;
+	left: 38%;
+	/* border: 3px solid rgba(0,0,0,0.3); */
+	box-shadow: 0 0 3px 2px rgba(0,0,0,0.3);
+}
+
+.user-profile .follower-list .single .thumb img {
+	width: 100%;
+	height: auto;
+}
+
+
+.user-profile .follower-list .single .name {
+	margin-top: 36px;
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.user-profile .follower-list .single .follow {
+	display: inline;
+	padding: 4px 11px;
+	background: #ddd;
+	border-radius: 3px;
+	font-size: 13px;
+	border-bottom: 2px solid #c8c8c8;
+	cursor: pointer;
+}
+
+
+.user-profile .follower-list .single .follow.following {
+	background: #32b9ff;
+	color: #fff;
+}
+
+
+
+
+.user-profile .info-box{}
+.user-profile .info-box .item {
+
+
+}
+
+
+.user-profile .school, .user-profile .company {
+	font-size: 13px;
+	font-weight: bold;
+}
+.user-profile .degree, .user-profile .position {
+	/* display: block; */
+	margin: 0 5px;
+	font-style: italic;
+}
+.user-profile .end_date{}
+
+
+.user-profile .contact-list{}
+
+.user-profile .contact-list .item {
+	width: 30px;
+	height: 30px;
+	background: #717171;
+	display: inline-block;
+	text-align: center;
+	font-size: 23px !important;
+	color: #fff;
+	padding: 3px 4px;
+	vertical-align: top;
+	margin: 0 4px !important;
+}
+
+.user-profile .contact-list .item .fa {
+	vertical-align: top;
+}
+
+
+
+
+
+@media only screen and ( min-width: 0px ) and ( max-width: 800px ) {
+.user-profile .profile-header {
+	position: relative;
+	text-align: center;
+}
+
+.user-profile .profile-header .thumb {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	border: 3px solid #fff;
+	border-radius: 3px;
+	box-shadow: 0 0 6px -1px rgba(0,0,0,0.3);
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	display: block;
+	/* width: 100%; */
+	margin: 0 auto;
+}
+
+
+.user-profile .profile-header .name {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	font-size: 30px;
+	color: #fff;
+	text-shadow: 0 1px 10px #000;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+	display: block;
+	margin: 20px auto;
+}
+
+.user-profile .profile-header .follow {
+	position: relative;
+	right: 0;
+	bottom: 0;
+	font-size: 14px;
+	color: #575757;
+	background: #f5f3f3;
+	padding: 6px 25px;
+	border-radius: 21px;
+	cursor: pointer;
+	box-shadow: 0 0 0px 3px rgba(0,0,0,0.3);
+	margin: 8px auto;
+	display: inline;
+}
+
+.user-profile .profile-header-navs {
+	padding-left: 0;
+	/* border-bottom: 1px solid #ddd; */
+	/* border-left: 1px solid #ddd; */
+	/* border-right: 1px solid #ddd; */
+	/* border-bottom-left-radius: 3px; */
+	/* border-bottom-right-radius: 3px; */
+	background: #ddd3;
+	margin-top: 25px;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+	text-align: center;
+}
+	
+	
+.user-profile .navs-content .nav-content .basic-info {
+	width: 100%;
+	background: #dddddd80;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.user-profile .navs-content .nav-content .other-info {
+	width: 100%;
+	display: inline-block;
+}
+	
+.user-profile .navs-content .nav-content .other-info .container {
+	/* width: 30%; */
+	padding: 0 15px;
+}
+	
+.user-profile .toast {
+	right: 0px;
+	bottom: 30px;
+	width: 90%;
+}
+	
+	}
+
+
+
+
+@media only screen and ( min-width: 0px ) and ( max-width: 500px ) {
+.user-profile .profile-header-navs a {
+	display: block;
+	border-right: none;
+}
+	
+	}
+
+
+
+
+
+
+
+
+
