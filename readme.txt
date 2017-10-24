@@ -4,7 +4,7 @@
 	Tags:  user profile, profile, custom user profile
 	Requires at least: 4.1
 	Tested up to: 4.8
-	Stable tag: 2.0.8
+	Stable tag: 2.0.9
 	License: GPLv2 or later
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,8 +16,8 @@ Create beautiful user profile page for your WordPress powered website, its feel 
 
 ### User profile by [http://pickplugins.com](http://pickplugins.com)
 
-* [User profile! &raquo; ](http://www.pickplugins.com/product/user-profile/?ref=wordpress.org)
-* [Profile Demo! &raquo; ](http://www.pickplugins.com/product/user-profile/profile/?id=4&nav=about&ref=wordpress.org)
+* [User profile! &raquo; ](https://www.pickplugins.com/item/user-profile/?ref=wordpress.org)
+* [Profile Demo! &raquo; ](http://www.pickplugins.com/demo/user-profile/?id=48&nav=about&ref=wordpress.org)
 * [Support !&raquo; ](https://www.pickplugins.com/support/?ref=wordpress.org)
 * [Documentation! &raquo; ](http://pickplugins.com/docs/documentation/user-profile/?ref=wordpress.org)
 
@@ -66,6 +66,9 @@ Please find the 'en.po' for default translation file under 'languages' folder an
 
 == Changelog ==
 
+
+= 2.0.9 =
+* 24/10/2017 update - Demo link update.
 
 = 2.0.8 =
 * 22/10/2017 fix - textdomain variable removed.

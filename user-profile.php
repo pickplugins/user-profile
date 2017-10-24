@@ -3,7 +3,7 @@
 Plugin Name: User profile
 Plugin URI: http://pickplugins.com
 Description: Socialize your user profile.
-Version: 2.0.8
+Version: 2.0.9
 Text Domain: user-profile
 Author: pickplugins
 Author URI: http://pickplugins.com
