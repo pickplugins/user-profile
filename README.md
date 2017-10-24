@@ -4,10 +4,10 @@ Create beautiful user profile page for your WordPress powered website, its feel 
 
 ### User profile by [http://pickplugins.com](http://pickplugins.com)
 
-* [User profile! &raquo; ](http://www.pickplugins.com/product/user-profile/?ref=github.com)
-* [Profile Demo! &raquo; ](http://www.pickplugins.com/product/user-profile/profile/?id=4&nav=about&ref=github.com)
-* [Support !&raquo; ](https://www.pickplugins.com/support/?ref=github.com)
-* [Documentation! &raquo; ](http://pickplugins.com/docs/documentation/user-profile/?ref=github.com)
+* [User profile! &raquo; ](https://www.pickplugins.com/item/user-profile/?ref=wordpress.org)
+* [Profile Demo! &raquo; ](http://www.pickplugins.com/demo/user-profile/?id=48&nav=about&ref=wordpress.org)
+* [Support !&raquo; ](https://www.pickplugins.com/support/?ref=wordpress.org)
+* [Documentation! &raquo; ](http://pickplugins.com/docs/documentation/user-profile/?ref=wordpress.org)
 
 # Shortcodes
 
