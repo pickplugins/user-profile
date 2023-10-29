@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+
+.user-feed .feed-items {
+    margin-left: 350px;
+    padding-left: 20px;
+    vertical-align: top;
+}
+
+.user-feed .feed-items .list-items .single {
+    background: #e7e7e780;
+    margin: 15px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+}
+
+.user-feed .feed-items .list-items .single .post-header-left,
+.user-feed .feed-items .list-items .single .post-header-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.user-feed .feed-items .list-items .single .post-header-action {
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+}
+
+.user-feed .feed-items .list-items .single .post-header-action .post-status-icon {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.user-feed .feed-items .list-items .single .post-avatar {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.user-feed .feed-items .list-items .single .post-avatar img {
+    width: 100%;
+    height: auto;
+}
+
+.user-feed .feed-items .list-items .single .post-username a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.user-feed .feed-items .list-items .single .excerpt {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.user-feed .feed-items .list-items .single .post-view-more {
+    font-size: 12px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: border 0.3s;
+    border-bottom: 1px solid #f3f3f3;
+}
+.user-feed .feed-items .list-items .single .post-view-more:hover {
+    border-bottom: 1px solid #15b1c1;
+}
+
+.user-feed .feed-items .list-items .single .post-reactions {
+    margin-top: 15px;
+    border-top: 1px solid #e1e1e1;
+    padding: 10px 0;
+}
+
+.user-feed .feed-items .list-items .single .post-reactions .reaction_count,
+.user-feed .feed-items .list-items .single .post-reactions .reactions {
+    display: inline;
+    margin-right: 10px;
+}
+
+.user-feed .feed-items .list-items .single .post-reactions .reaction_count {
+    cursor: pointer;
+    border: 1px solid #de6414;
+    color: #de6414;
+    border-radius: 50%;
+    padding: 3px;
+    font-size: 12px !important;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    transition: background 0.3s linear;
+}
+
+.user-feed .feed-items .list-items .single .post-reactions .reaction_count:hover {
+    background: #de6414;
+    color: #fff;
+}
+
+.user-feed .feed-items .list-items .single .post-reactions .reactions {
+    font-size: 17px;
+}
+
+.user-feed .feed-items .list-items .single .post-reactions .reactions.emos .emo {
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.user-feed .feed-items .list-items .single .post-reactions .reactions.emos .emo.reacted,
+.user-feed .feed-items .list-items .single .post-reactions .reactions.emos .emo:hover {
+    color: #ff6b44;
+}
+
+.user-feed .feed-items .list-items .single .post-reactions .reaction_notice {
+    display: none;
+    color: #ff6b44;
+    background: #ffe5e5;
+    padding: 5px 15px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.user_profile_feed_loader {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin: 0 auto;
+    display: none;
+}
+
+.db1,
+.db2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #333;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.db2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+    0%,
+    100% {
+        -webkit-transform: scale(0.0)
+    }
+    50% {
+        -webkit-transform: scale(1.0)
+    }
+}
+
+@keyframes sk-bounce {
+    0%,
+    100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    }
+    50% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}

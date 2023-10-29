@@ -1,0 +1,453 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import "new-post.css";
+@import "posts-list.css";
+@import "about.css";
+.user-profile .highlight {
+    color: #f10d0d;
+}
+
+.user-profile .profile-header {
+    position: relative;
+}
+
+.user-profile .profile-header .cover {
+    max-height: 350px;
+    overflow: hidden;
+}
+
+.user-profile .profile-header .cover .cover-thumb-overlay {
+    background: rgba(0, 0, 0, 0) linear-gradient(rgba(232, 232, 232, 0) 50%, rgba(10, 10, 10, 0.52)) repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.user-profile .profile-header .cover .cover-thumb img {
+    width: 100%;
+}
+
+.user-profile .profile-header .cover .cover-upload {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: #ddd;
+    text-align: center;
+    cursor: pointer;
+    transform: scale(0);
+    z-index: 999999;
+}
+
+.user-profile .profile-header .cover:hover .cover-upload {
+    transform: scale(1);
+}
+
+.user-profile .profile-header .thumb {
+    position: absolute;
+    bottom: -30px;
+    left: 30px;
+    border: 3px solid #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 6px -1px rgba(0, 0, 0, 0.3);
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.user-profile .profile-header .thumb .profile-avatar {
+    background: #fff;
+}
+
+.user-profile .profile-header .thumb .thumb-upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background: #b0adad;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    transform: scale(0);
+}
+
+.user-profile .profile-header .thumb:hover .thumb-upload {
+    transform: scale(1);
+}
+
+.user-profile .profile-header .thumb img {
+    width: 100%;
+    height: auto;
+}
+
+.user-profile .profile-header .name {
+    position: absolute;
+    left: 250px;
+    bottom: 20px;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 0 1px 10px #000;
+    font-weight: bold;
+}
+
+.user-profile .profile-header .follow {
+    border: 1px solid #fff;
+    border-radius: 21px;
+    bottom: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    min-width: 62px;
+    padding: 5px 15px;
+    position: absolute;
+    right: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.19);
+}
+
+.user-profile .profile-header .follow.following {
+    background: #32b9ff;
+    color: #fff;
+}
+
+.user-profile .user-posts .single {
+    margin: 25px 0;
+}
+
+.user-profile .user-posts .single .title {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.user-profile .user-posts .single .excerpt {
+    font-size: 13px;
+}
+
+.user-profile .user-posts .single .date {
+    font-size: 13px;
+}
+
+.user-profile .paginate .page-numbers {
+    padding: 6px 12px;
+    background: #ddd;
+    text-decoration: none;
+}
+
+.user-profile .paginate .page-numbers.current {
+    background: #dddddd80;
+}
+
+.user-profile .toast {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    min-width: 300px;
+    min-height: 50px;
+    /* background: #fff; */
+    border-radius: 3px;
+    box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.3);
+    display: none;
+    padding: 10px;
+    background: #666;
+    color: #fff;
+}
+
+.user-profile .follower-list {
+    text-align: center;
+}
+
+.user-profile .follower-list .single {
+    display: inline-block;
+    width: 250px;
+    position: relative;
+    margin: 15px 15px;
+    background: #dddddd4d;
+    padding-bottom: 22px;
+    border-radius: 4px;
+    /* box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.13); */
+    border: 1px solid #ddd6;
+    padding: 15px;
+}
+
+.user-profile .follower-list .cover {
+    height: 90px;
+    overflow: hidden;
+}
+
+.user-profile .follower-list .single .thumb {
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+    overflow: hidden;
+    position: absolute;
+    top: 72px;
+    left: 38%;
+    /* border: 3px solid rgba(0,0,0,0.3); */
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+.user-profile .follower-list .single .thumb img {
+    width: 100%;
+    height: auto;
+}
+
+.user-profile .follower-list .single .name {
+    margin-top: 36px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.user-profile .follower-list .single .follow {
+    display: inline;
+    padding: 4px 11px;
+    background: #ddd;
+    border-radius: 3px;
+    font-size: 13px;
+    border-bottom: 2px solid #c8c8c8;
+    cursor: pointer;
+}
+
+.user-profile .follower-list .single .follow.following {
+    background: #32b9ff;
+    color: #fff;
+}
+
+.user-profile .info-box .item {
+    display: inherit !important;
+}
+
+.user-profile .school,
+.user-profile .company {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.user-profile .degree,
+.user-profile .position {
+    /* display: block; */
+    margin: 0 5px;
+    font-style: italic;
+}
+
+.user-profile .contact-list .item {
+    background: #717171;
+    display: inline-block !important;
+    text-align: center;
+    font-size: 18px !important;
+    color: #fff;
+    padding: 2px 18px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+@media only screen and ( min-width: 0px) and ( max-width: 800px) {
+    .user-profile .profile-header {
+        position: relative;
+        text-align: center;
+    }
+    .user-profile .profile-header .thumb {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        border: 3px solid #fff;
+        border-radius: 3px;
+        box-shadow: 0 0 6px -1px rgba(0, 0, 0, 0.3);
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        display: block;
+        /* width: 100%; */
+        margin: 0 auto;
+    }
+    .user-profile .profile-header .name {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        font-size: 30px;
+        color: #fff;
+        text-shadow: 0 1px 10px #000;
+        font-weight: bold;
+        width: 100%;
+        text-align: center;
+        display: block;
+        margin: 20px auto;
+    }
+    .user-profile .profile-header .follow {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        font-size: 14px;
+        color: #575757;
+        background: #f5f3f3;
+        padding: 6px 25px;
+        border-radius: 21px;
+        cursor: pointer;
+        box-shadow: 0 0 0px 3px rgba(0, 0, 0, 0.3);
+        margin: 8px auto;
+        display: inline;
+    }
+    .user-profile .profile-header-navs {
+        padding-left: 0;
+        /* border-bottom: 1px solid #ddd; */
+        /* border-left: 1px solid #ddd; */
+        /* border-right: 1px solid #ddd; */
+        /* border-bottom-left-radius: 3px; */
+        /* border-bottom-right-radius: 3px; */
+        background: #ddd3;
+        margin-top: 25px;
+        border-radius: 3px;
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+    .user-profile .toast {
+        right: 0px;
+        bottom: 30px;
+        width: 90%;
+    }
+}
+
+@media only screen and ( min-width: 0px) and ( max-width: 500px) {
+    .user-profile .profile-header-navs a {
+        display: block;
+        border-right: none;
+    }
+}
+
+.user-feed .feed-side {
+    float: left;
+    vertical-align: top;
+    width: 350px;
+}
+
+.user-feed .side-section {
+    background: #e7e7e780;
+    padding: 5px 15px;
+    margin: 0 0 20px 0;
+}
+
+.user-feed .side-section .section-title {
+    padding: 0 0 10px 0;
+    /* font-weight: 600; */
+    font-size: 16px;
+}
+
+.user-feed .side-section .section-content {
+    font-size: 13px;
+}
+
+.user-feed .side-section .section-content.intro .item {
+    display: inherit;
+    margin: 0 0 10px 0;
+}
+
+.user-feed .side-section .section-content.intro .item .icon {
+    margin-right: 5px;
+}
+
+.user-feed .side-section .section-content.photos {
+    column-count: 3;
+    column-gap: 5px;
+}
+
+.user-feed .side-section .section-content.photos .item img {
+    width: 100%;
+    box-shadow: none;
+    border-radius: 0;
+    border: 0;
+}
+
+.user-feed .side-section .section-content.followers .item {
+    width: 60px;
+    vertical-align: top;
+    display: inline-block;
+    height: 60px;
+    margin: 5px;
+}
+
+.user-feed .side-section .section-content.followers .item img {
+    border-radius: 50%;
+}
+
+.user-profile .button {
+    display: inline-block;
+    background: #ddd;
+    padding: 7px 20px;
+    margin: 5px 0;
+    color: #696969;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.user-profile .button:active,
+.user-profile .button:focus,
+.user-profile .button:hover {
+    color: #fff !important;
+    background: #696969 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.user-profile input {
+    margin: 0px 0 5px 0;
+}
+
+.user-profile input,
+.user-profile select,
+.user-profile textarea {
+    margin-right: 10px;
+    padding: 3px 10px;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #c5c5c5;
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.user-profile input:focus,
+.user-profile select:focus,
+.user-profile textarea:focus {
+    border-color: rgba(102, 175, 233, 1);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+.user-profile label {
+    cursor: pointer;
+}
+
+.user-profile input[disabled] {
+    cursor: default;
+    color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+}

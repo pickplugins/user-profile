@@ -3,8 +3,8 @@
 	Donate link: http://pickplugins.com
 	Tags:  user profile, profile, custom user profile
 	Requires at least: 4.1
-	Tested up to: 4.8
-	Stable tag: 2.0.9
+	Tested up to: 6.4
+	Stable tag: 2.0.20
 	License: GPLv2 or later
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,14 +19,25 @@ Create beautiful user profile page for your WordPress powered website, its feel 
 * [User profile! &raquo; ](https://www.pickplugins.com/item/user-profile/?ref=wordpress.org)
 * [Profile Demo! &raquo; ](http://www.pickplugins.com/demo/user-profile/?id=48&nav=about&ref=wordpress.org)
 * [Support !&raquo; ](https://www.pickplugins.com/support/?ref=wordpress.org)
-* [Documentation! &raquo; ](http://pickplugins.com/docs/documentation/user-profile/?ref=wordpress.org)
+* [Documentation! &raquo; ](http://pickplugins.com/documentation/user-profile/?ref=wordpress.org)
+
+
+## Ready Addons
+
+User profile is created for easy customization and easy to extend, so we have created some ready addon for you.
+
+* [Online Users](https://www.pickplugins.com/item/user-profile-online-users/?ref=wordpress.org)
+* [Verified Users](https://www.pickplugins.com/item/user-profile-verified-users/?ref=wordpress.org)
+* [User Directory](https://www.pickplugins.com/item/user-profile-user-directory/?ref=wordpress.org)
+
+
 
 # Shortcodes
 
 <strong>User profile</strong>
 Create a page first and the paste the following shortcode to display user profile, only loggedin user can see the profile. also any user profile can access via url parameter (http://www.pickplugins.com/product/user-profile/profile/?id=4)
 
-`[user_profile]` 
+`[user_profile]`
 
 
 <strong>User profile edit</strong>
@@ -66,6 +77,40 @@ Please find the 'en.po' for default translation file under 'languages' folder an
 
 == Changelog ==
 
+
+
+= 2.0.20 =
+* 2023-10-29 fix - general fucntion name modified to avoid conflict.
+
+= 2.0.19 =
+* 2021-04-24 fix - general fucntion name modified to avoid conflict.
+
+= 2.0.18 =
+* 2021-04-18 fix - css file loading issue update.
+
+= 2.0.17 =
+* 2021-04-1 fix - security issue update
+
+= 2.0.16 =
+* 08/12/2019/ fix - fixed user update issue
+
+= 2.0.15 =
+* 27/09/2018 update - Update profile edit form.
+
+= 2.0.14 =
+* 18/05/2018 add - filter hook for custom active profile nav
+
+= 2.0.13 =
+* 16/05/2018 add - priority of navs
+
+= 2.0.12 =
+* 06/05/2018 add - added new shortcode [user_profile_follow_button]
+
+= 2.0.11 =
+* 15/04/2018 update - Plugin re-writing.
+
+= 2.0.10 =
+* 31/12/2017 update - addon list update.
 
 = 2.0.9 =
 * 24/10/2017 update - Demo link update.

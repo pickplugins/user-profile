@@ -2,67 +2,94 @@
 Admin css
 */
 
-	
-.user-profile-addons {
-  margin: 40px 0;
-}
-	
-.user-profile-addons .single {
-  background: none repeat scroll 0 0 rgb(255, 255, 255);
-  border: 1px solid rgb(221, 221, 221);
-  display: inline-block;
-  margin: 20px 10px;
-  overflow: hidden;
-  padding: 0 0 15px;
-  vertical-align: top;
-  width: 325px;
-}
-	
-.user-profile-addons .thumb {
-  max-height: 180px;
-  overflow: hidden;
-}
-.user-profile-addons .thumb img {
-  width: 100%;
-}
-.user-profile-addons .title {
-  font-size: 16px;
-  margin: 15px 0;
-  padding: 0 8px;
-}
-.user-profile-addons .title a{
-text-decoration:none;
+.addon-container {
+    margin: 20px 0;
 }
 
-
-.user-profile-addons .content {
-  font-size: 13px;
-  margin: 8px 0;
-  padding: 0 8px;
+.addon-container .single {
+    background: none repeat scroll 0 0 rgb(255, 255, 255);
+    border: 1px solid rgb(221, 221, 221);
+    display: inline-block;
+    margin: 20px 10px;
+    overflow: hidden;
+    padding: 0 0 15px;
+    vertical-align: top;
+    width: 325px;
 }
 
-.user-profile-addons .meta {
-  display: inline-block;
-  margin: 0 10px;
-  vertical-align: top;
+.addon-container .thumb {
+    max-height: 180px;
+    overflow: hidden;
 }
 
-.user-profile-addons .meta a{
-	text-decoration:none;
+.addon-container .thumb img {
+    width: 100%;
 }
 
-.user-profile-addons .version {
-
+.addon-container .title {
+    font-size: 16px;
+    margin: 20px 0;
+    padding: 0 10px;
 }
-	
-.user-profile-addons .download {
-  background: #42b1ff none repeat scroll 0 0;
-  border-radius: 2px;
-  float: right;
-  padding: 3px 10px;
-}	
-	
 
-.user-profile-addons .download a{
-  color: #fff;
+.addon-container .title a {
+    text-decoration: none;
+}
+
+.addon-container .content {
+    font-size: 13px;
+    margin: 8px 0;
+    padding: 0 8px;
+}
+
+.addon-container .meta-data {
+    text-align: center;
+}
+
+.addon-container .meta {
+    display: inline-block;
+    margin: 0 5px;
+    vertical-align: top;
+    padding: 3px 12px;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+    background: #929292;
+    color: #fff;
+}
+
+/* .addon-container .title .icofont-brand-wordpress {
+    position: relative;
+    background: #b75a52;
+    color: #fff;
+    padding: 5px;
+    margin-right: 25px;
+    font-size: 15px;
+}
+.addon-container .title .icofont-brand-wordpress:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #b75a52;
+    border-width: 20px;
+    margin-top: -20px;
+} */
+
+
+.addon-container .meta a {
+    text-decoration: none;
+}
+
+.addon-container .price {
+    background: #26b9b3;
+}
+
+.addon-container .download {
+    background: #d2b153;
 }

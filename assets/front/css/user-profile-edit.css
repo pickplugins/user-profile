@@ -3,77 +3,72 @@
 
 
 
-
-
-
-.user-profile-edit{}
-
-
-.user-profile-edit .status {
-	margin-bottom: 20px;
+.user-profile-edit{
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
-.user-profile-edit .status .success {
-	font-size: 13px;
-	border-left: 3px solid #2bd84c;
-	padding: 5px;
-	background: #fff;
-	display: block;
-}
-
-
-
-
-.user-profile-edit .section {
+.user-profile-edit section {
 	background: #f3f3f399;
-	padding: 20px 20px;
-	margin: 20px 0;
 }
 
-.user-profile-edit .work{}
+.user-profile-edit .section-title{
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.user-profile-edit .section-field{
+	display: block;
+	clear: both;
+	margin: 0 0 15px 0;
+	border-bottom: 1px solid #dddddd63;
+	font-size: 13px;
+	padding: 0 15px;
+	padding-bottom: 15px;
+}
+
+.user-profile-edit .section-field label{
+	width: 45%;
+	min-width: 180px;
+	cursor: pointer;
+	display: inline-block;
+}
 
 
-.user-profile-edit .sortable{}
 
-.user-profile-edit .sortable .item {
+.user-profile-edit .section-field input[type="text"],
+.user-profile-edit .section-field select, 
+.user-profile-edit .section-field textarea{
+    min-width: 200px;
+    width: 25%;
+}
+
+
+.user-profile-edit .item {
 	margin: 15px 0;
 	background: #ddd6;
 	padding: 10px 10px;
 }
-.user-profile-edit .sortable .item .remove {
+.user-profile-edit .item .meta {
+	margin-right: 10px;
+}
+.user-profile-edit .item .remove {
 	background: #f36d41;
 	padding: 2px 8px;
 	color: #fff;
 	cursor: pointer;
 }
-.user-profile-edit .sortable .item .move {
+.user-profile-edit .item .move {
 	background: #41c7f3;
 	padding: 2px 8px;
 	color: #fff;
 	cursor: move;
 }
-
-
-
-.user-profile-edit .button {
-	display: inline;
+.user-profile-edit .button{
+	display: inline-block;
 	background: #ddd;
-	padding: 3px 20px;
-	color: #696969;
+	padding: 6px 10px;
 	border-radius: 3px;
 	cursor: pointer;
-	border-bottom: 2px solid #a19c9c;
 }
-
-
-
-@media only screen and ( min-width: 0px ) and ( max-width: 800px ) {
-	
-	
-.user-profile-edit input {
-	margin: 5px 0;
-}
-	
-	}
-
 

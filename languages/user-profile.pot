@@ -1,0 +1,645 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: User profile\n"
+"POT-Creation-Date: 2018-09-27 12:55+0600\n"
+"PO-Revision-Date: 2018-09-27 12:55+0600\n"
+"Last-Translator: \n"
+"Language-Team: PickPlugins <support@pickplugins.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: templates\n"
+"X-Poedit-SearchPath-1: includes\n"
+
+#: includes/classes/class-feed.php:82
+msgid "Invalid data passed !"
+msgstr ""
+
+#: includes/classes/class-functions.php:59
+msgid "Invalid or empty user data given !"
+msgstr ""
+
+#: includes/classes/class-functions.php:66
+msgid "Invalid or empty template directory found !"
+msgstr ""
+
+#: includes/classes/class-functions.php:82
+#: includes/classes/class-functions.php:105
+#: includes/classes/class-functions.php:134
+#: includes/classes/class-functions.php:157
+msgid "Delete"
+msgstr ""
+
+#: includes/classes/class-functions.php:83
+#: includes/classes/class-functions.php:106
+#: includes/classes/class-functions.php:135
+#: includes/classes/class-functions.php:158
+msgid "Sort"
+msgstr ""
+
+#: includes/classes/class-functions.php:84
+msgid "Location"
+msgstr ""
+
+#: includes/classes/class-functions.php:85
+msgid "Address"
+msgstr ""
+
+#: includes/classes/class-functions.php:108
+msgid "School/College/University"
+msgstr ""
+
+#: includes/classes/class-functions.php:109
+msgid "Degree"
+msgstr ""
+
+#: includes/classes/class-functions.php:110
+#: includes/classes/class-functions.php:138
+msgid "Start date"
+msgstr ""
+
+#: includes/classes/class-functions.php:111
+#: includes/classes/class-functions.php:139
+msgid "End date"
+msgstr ""
+
+#: includes/classes/class-functions.php:112
+#: includes/classes/class-functions.php:113
+#: includes/classes/class-functions.php:140
+#: includes/classes/class-functions.php:141
+msgid "Running"
+msgstr ""
+
+#: includes/classes/class-functions.php:136
+msgid "Position"
+msgstr ""
+
+#: includes/classes/class-functions.php:137
+msgid "Company"
+msgstr ""
+
+#: includes/classes/class-functions.php:159
+msgid "Username"
+msgstr ""
+
+#: includes/classes/class-functions.php:160
+msgid "Profile link"
+msgstr ""
+
+#: includes/classes/class-functions.php:178 templates/user-profile-edit.php:14
+#: templates/user-profile-edit/basic-info.php:15
+#: templates/user-profile/nav-content/about.php:25
+msgid "Basic Info"
+msgstr ""
+
+#: includes/classes/class-functions.php:181
+#: templates/user-profile-edit/contacts.php:15
+#: templates/user-profile/nav-content/about.php:60
+msgid "Contacts"
+msgstr ""
+
+#: includes/classes/class-functions.php:184 templates/user-profile-edit.php:26
+#: templates/user-profile-edit/works.php:18
+msgid "Works"
+msgstr ""
+
+#: includes/classes/class-functions.php:187
+#: templates/user-profile-edit/educations.php:16
+msgid "Educations"
+msgstr ""
+
+#: includes/classes/class-functions.php:190 templates/user-profile-edit.php:38
+#: templates/user-profile-edit/places.php:18
+#: templates/user-profile/nav-content/about.php:136
+msgid "Places"
+msgstr ""
+
+#: includes/classes/class-functions.php:200
+msgid "Feed"
+msgstr ""
+
+#: includes/classes/class-functions.php:201
+msgid "About"
+msgstr ""
+
+#: includes/classes/class-functions.php:202
+#: includes/classes/class-functions.php:355
+msgid "Followers"
+msgstr ""
+
+#: includes/classes/class-functions.php:203
+#: templates/user-templates/default.php:13
+#: templates/user-templates/social.php:12
+msgid "Following"
+msgstr ""
+
+#: includes/classes/class-functions.php:259
+msgid "Male"
+msgstr ""
+
+#: includes/classes/class-functions.php:263
+msgid "Female"
+msgstr ""
+
+#: includes/classes/class-functions.php:267
+msgid "Others"
+msgstr ""
+
+#: includes/classes/class-functions.php:279
+msgid "Single"
+msgstr ""
+
+#: includes/classes/class-functions.php:282
+msgid "Engaged"
+msgstr ""
+
+#: includes/classes/class-functions.php:285
+msgid "In a relationship"
+msgstr ""
+
+#: includes/classes/class-functions.php:288
+msgid "Married"
+msgstr ""
+
+#: includes/classes/class-functions.php:291
+msgid "Separated"
+msgstr ""
+
+#: includes/classes/class-functions.php:294
+msgid "Divorced"
+msgstr ""
+
+#: includes/classes/class-functions.php:297
+msgid "Widowed"
+msgstr ""
+
+#: includes/classes/class-functions.php:311
+msgid "Template - Default"
+msgstr ""
+
+#: includes/classes/class-functions.php:314
+msgid "Template - Social logo"
+msgstr ""
+
+#: includes/classes/class-functions.php:317
+msgid "Template - Flat"
+msgstr ""
+
+#: includes/classes/class-functions.php:375
+msgid "Liked it"
+msgstr ""
+
+#: includes/classes/class-functions.php:379
+msgid "Love"
+msgstr ""
+
+#: includes/classes/class-functions.php:383
+msgid "Smile"
+msgstr ""
+
+#: includes/classes/class-functions.php:387
+msgid "Crying"
+msgstr ""
+
+#: includes/classes/class-functions.php:391
+msgid "Stuck-out-tounge"
+msgstr ""
+
+#: includes/classes/class-functions.php:395
+msgid "Dizzy"
+msgstr ""
+
+#: includes/classes/class-functions.php:399
+msgid "Smirk"
+msgstr ""
+
+#: includes/classes/class-functions.php:416
+msgid "Please login to continue !"
+msgstr ""
+
+#: includes/classes/class-functions.php:420
+msgid "Invalid data found !"
+msgstr ""
+
+#: includes/classes/class-pick-settings.php:642
+msgid "Irks! An error has occurred."
+msgstr ""
+
+#: includes/classes/class-plugin-upadte.php:33
+msgid "User profile - Update"
+msgstr ""
+
+#: includes/classes/class-plugin-upadte.php:34
+msgid "Total users"
+msgstr ""
+
+#: includes/classes/class-plugin-upadte.php:35
+msgid "Do not close this browser tab until update is done."
+msgstr ""
+
+#: includes/classes/class-plugin-upadte.php:43
+msgid "Updating..."
+msgstr ""
+
+#: includes/classes/class-plugin-upadte.php:70
+#: includes/classes/class-plugin-upadte.php:71
+msgid "User Profile - Update"
+msgstr ""
+
+#: includes/classes/class-plugin-upadte.php:80
+msgid "You need to update data to synchronize with Latest version "
+msgstr ""
+
+#: includes/classes/class-plugin-upadte.php:81
+msgid "Update now"
+msgstr ""
+
+#: includes/classes/class-plugin-upadte.php:151
+#, php-format
+msgid "%d Updated : "
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:72
+#, php-format
+msgid "Template file not found for shortcode : [%s]"
+msgstr ""
+
+#: includes/classes/class-user.php:139
+msgid "Nothing to update"
+msgstr ""
+
+#: includes/functions-ajax.php:333
+msgid "You can not follow yourself."
+msgstr ""
+
+#: includes/functions-ajax.php:388
+msgid "Please login first."
+msgstr ""
+
+#: includes/functions-settings-new.php:13 includes/functions-settings.php:13
+msgid "Pages"
+msgstr ""
+
+#: includes/functions-settings-new.php:18 includes/functions-settings.php:18
+msgid "General"
+msgstr ""
+
+#: includes/functions-settings-new.php:19 includes/functions-settings.php:19
+msgid "Select all pages from here"
+msgstr ""
+
+#: includes/functions-settings-new.php:23 includes/functions-settings.php:23
+msgid "Profile Display Page"
+msgstr ""
+
+#: includes/functions-settings-new.php:24
+msgid ""
+"Select a page where the user profile will display, please use following "
+"shortcode <code>[user_profile]</code>"
+msgstr ""
+
+#: includes/functions-settings-new.php:30 includes/functions-settings.php:30
+msgid "Profile Edit Page"
+msgstr ""
+
+#: includes/functions-settings-new.php:31
+msgid ""
+"Select a page where the user can edit profile, please use following "
+"shortcode <code>[user_profile_edit]</code>"
+msgstr ""
+
+#: includes/functions-settings-new.php:44 includes/functions-settings.php:44
+#: includes/functions-settings.php:159
+msgid "Options"
+msgstr ""
+
+#: includes/functions-settings-new.php:49 includes/functions-settings.php:49
+#: includes/functions-settings.php:164
+msgid "Templates"
+msgstr ""
+
+#: includes/functions-settings-new.php:50 includes/functions-settings.php:50
+#: includes/functions-settings.php:165
+msgid "Select display templates from here"
+msgstr ""
+
+#: includes/functions-settings-new.php:54 includes/functions-settings.php:54
+#: includes/functions-settings.php:169
+msgid "User display template"
+msgstr ""
+
+#: includes/functions-settings-new.php:55 includes/functions-settings.php:55
+#: includes/functions-settings.php:170
+msgid "Select how you want to display the single user item"
+msgstr ""
+
+#: includes/functions-settings-new.php:73
+#: includes/functions-settings-new.php:234 includes/functions-settings.php:73
+#: includes/functions-settings.php:228
+msgid "Help"
+msgstr ""
+
+#: includes/functions-settings-new.php:82 includes/functions-settings.php:82
+msgid "Huge change, Right ?"
+msgstr ""
+
+#: includes/functions-settings-new.php:102 includes/functions-settings.php:102
+msgid "Documentation"
+msgstr ""
+
+#: includes/functions-settings-new.php:109 includes/functions-settings.php:109
+msgid "Demo"
+msgstr ""
+
+#: includes/functions-settings-new.php:116 includes/functions-settings.php:116
+msgid "Need older version?"
+msgstr ""
+
+#: includes/functions-settings-new.php:130
+#: includes/functions-settings-new.php:131 includes/functions-settings.php:130
+#: includes/functions-settings.php:131
+msgid "User Profile"
+msgstr ""
+
+#: includes/functions-settings-new.php:132 includes/functions-settings.php:132
+msgid "User Profile Settings"
+msgstr ""
+
+#: includes/functions-settings-new.php:159
+#: includes/functions-settings-new.php:212 includes/functions-settings.php:206
+msgid "Addons"
+msgstr ""
+
+#: includes/functions-settings-new.php:164
+#: includes/functions-settings-new.php:265
+msgid "Ready Addons"
+msgstr ""
+
+#: includes/functions-settings-new.php:165
+#: includes/functions-settings-new.php:266
+msgid "We have created some ready addons for your project."
+msgstr ""
+
+#: includes/functions-settings-new.php:169
+#: includes/functions-settings-new.php:270
+msgid "Addons list"
+msgstr ""
+
+#: includes/functions-settings-new.php:170
+#: includes/functions-settings-new.php:271
+msgid "Some ready addons may help your project boosted."
+msgstr ""
+
+#: includes/functions-settings-new.php:213
+#: includes/functions-settings-new.php:214 includes/functions-settings.php:207
+#: includes/functions-settings.php:208
+msgid "User Profile - Addons"
+msgstr ""
+
+#: includes/functions-settings-new.php:235
+#: includes/functions-settings-new.php:236 includes/functions-settings.php:229
+#: includes/functions-settings.php:230
+msgid "User Profile - Help"
+msgstr ""
+
+#: includes/functions-settings-new.php:260
+#: includes/functions-settings-new.php:288
+msgid "Welcome"
+msgstr ""
+
+#: includes/functions-settings-new.php:289
+#: includes/functions-settings-new.php:290
+msgid "User Profile - Welcome"
+msgstr ""
+
+#: includes/functions-settings.php:24
+msgid "Select a page where the user profile will display"
+msgstr ""
+
+#: includes/functions-settings.php:31
+msgid "Select a page where the user profile can be editable"
+msgstr ""
+
+#: includes/functions.php:29
+#, php-format
+msgid "Please update %s properly !"
+msgstr ""
+
+#: includes/functions.php:29
+msgid "settings"
+msgstr ""
+
+#: includes/widgets/widget-users.php:14
+msgid "User Profile - Users"
+msgstr ""
+
+#: includes/widgets/widget-users.php:14
+msgid "Show Users."
+msgstr ""
+
+#: includes/widgets/widget-users.php:49
+msgid "Users"
+msgstr ""
+
+#: includes/widgets/widget-users.php:56
+msgid "Title"
+msgstr ""
+
+#: includes/widgets/widget-users.php:59
+msgid "Count"
+msgstr ""
+
+#: includes/widgets/widget-users.php:63
+msgid "Template"
+msgstr ""
+
+#: templates/user-profile-edit.php:15 templates/user-profile-edit.php:21
+#: templates/user-profile-edit.php:27 templates/user-profile-edit.php:33
+#: templates/user-profile-edit.php:39
+msgid "Some basic information about you."
+msgstr ""
+
+#: templates/user-profile-edit.php:20
+msgid "Contact"
+msgstr ""
+
+#: templates/user-profile-edit.php:32
+#: templates/user-profile/nav-content/about.php:85
+msgid "Education"
+msgstr ""
+
+#: templates/user-profile-edit/basic-info.php:18
+msgid "First name"
+msgstr ""
+
+#: templates/user-profile-edit/basic-info.php:24
+msgid "Last name"
+msgstr ""
+
+#: templates/user-profile-edit/basic-info.php:32
+#: templates/user-profile/nav-content/about.php:45
+msgid "Birth date"
+msgstr ""
+
+#: templates/user-profile-edit/basic-info.php:37
+msgid "Relationsship"
+msgstr ""
+
+#: templates/user-profile-edit/basic-info.php:47
+#: templates/user-profile/nav-content/about.php:30
+msgid "Gender"
+msgstr ""
+
+#: templates/user-profile-edit/basic-info.php:57
+#: templates/user-profile/nav-content/about.php:40
+msgid "Religious"
+msgstr ""
+
+#: templates/user-profile-edit/basic-info.php:62
+msgid "Biographical Info"
+msgstr ""
+
+#: templates/user-profile-edit/basic-info.php:67
+#: templates/user-profile/nav-content/about.php:50
+msgid "Website"
+msgstr ""
+
+#: templates/user-profile-edit/contacts.php:20
+msgid "Add contact"
+msgstr ""
+
+#: templates/user-profile-edit/educations.php:19
+msgid "Add Education"
+msgstr ""
+
+#: templates/user-profile-edit/footer.php:19
+msgid "Save changes"
+msgstr ""
+
+#: templates/user-profile-edit/header.php:73
+msgid "Profile updated successfully"
+msgstr ""
+
+#: templates/user-profile-edit/log-out.php:12
+#, php-format
+msgid "%s required to continue"
+msgstr ""
+
+#: templates/user-profile-edit/log-out.php:12
+msgid "Login"
+msgstr ""
+
+#: templates/user-profile-edit/places.php:21
+msgid "Add Place"
+msgstr ""
+
+#: templates/user-profile-edit/works.php:20
+msgid "Add work"
+msgstr ""
+
+#: templates/user-profile-follow-button.php:29 templates/user-profile.php:16
+msgid "No or Invalid user found !"
+msgstr ""
+
+#: templates/user-profile-follow-button.php:44
+msgid "<i class=\"icofont icofont-tick-mark\"></i> Following"
+msgstr ""
+
+#: templates/user-profile-follow-button.php:44
+#: templates/user-templates/default.php:13
+#: templates/user-templates/social.php:12
+msgid "Follow"
+msgstr ""
+
+#: templates/user-profile/header.php:40 templates/user-profile/header.php:117
+msgid "Allowed Files"
+msgstr ""
+
+#: templates/user-profile/header.php:68 templates/user-profile/header.php:146
+msgid "Please wait."
+msgstr ""
+
+#: templates/user-profile/nav-content/about.php:35
+msgid "Relationship"
+msgstr ""
+
+#: templates/user-profile/nav-content/about.php:89
+#: templates/user-profile/nav-content/inside-feed/intro.php:29
+#, php-format
+msgid "Studied %s at %s from %s to %s"
+msgstr ""
+
+#: templates/user-profile/nav-content/about.php:106
+msgid "Work"
+msgstr ""
+
+#: templates/user-profile/nav-content/about.php:111
+#: templates/user-profile/nav-content/inside-feed/intro.php:45
+#, php-format
+msgid "Working at %s as %s from %s"
+msgstr ""
+
+#: templates/user-profile/nav-content/about.php:119
+#: templates/user-profile/nav-content/inside-feed/intro.php:53
+#, php-format
+msgid "Worked at %s as %s from %s to %s"
+msgstr ""
+
+#: templates/user-profile/nav-content/about.php:139
+#: templates/user-profile/nav-content/inside-feed/intro.php:69
+#, php-format
+msgid "Visited %s, %s"
+msgstr ""
+
+#: templates/user-profile/nav-content/followers.php:19
+#, php-format
+msgid "<b>Total Followers</b> : %d Persons"
+msgstr ""
+
+#: templates/user-profile/nav-content/following.php:18
+#, php-format
+msgid "<b>Total Following</b> : %d Persons"
+msgstr ""
+
+#: templates/user-profile/nav-content/inside-feed/intro.php:21
+msgid "Intro"
+msgstr ""
+
+#: templates/user-profile/nav-content/inside-feed/new-post.php:10
+msgid "What is on your mind...."
+msgstr ""
+
+#: templates/user-profile/nav-content/inside-feed/new-post.php:26
+msgid "Publish"
+msgstr ""
+
+#: templates/user-profile/nav-content/inside-feed/new-post.php:29
+msgid "Upload photo"
+msgstr ""
+
+#: templates/user-profile/nav-content/inside-feed/new-post.php:31
+msgid "Add selected photo(s)"
+msgstr ""
+
+#: templates/user-profile/nav-content/inside-feed/new-post.php:32
+msgid "Share photo"
+msgstr ""
+
+#: templates/user-profile/nav-content/inside-feed/pagination.php:21
+msgid "Load more"
+msgstr ""
+
+#: templates/user-profile/nav-content/inside-feed/post-single.php:22
+#, php-format
+msgid "Posted %s ago"
+msgstr ""
+
+#: templates/user-profile/nav-content/posts.php:45
+msgid "No post found."
+msgstr ""

@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+.user-profile .navs-content .nav-content .basic-info {
+	width: 30%;
+	background: #e7e7e780;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.user-profile .navs-content .nav-content .basic-info .up-container {
+	background: #dddddd4d;
+	padding: 15px;
+}
+.user-profile .navs-content .nav-content .basic-info .up-container .item span:first-child {
+    min-width: 80px;
+    display: inline-block;
+}
+
+.user-profile .navs-content .nav-content .other-info {
+	width: 69%;
+	display: inline-block;
+}
+
+.user-profile .navs-content .nav-content .other-info .up-container {
+	padding: 0 40px;
+}
+
+@media only screen and ( min-width: 0px ) and ( max-width: 800px ) {
+
+	.user-profile .navs-content .nav-content .basic-info {
+		width: 100%;
+		background: #dddddd80;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.user-profile .navs-content .nav-content .other-info {
+		width: 100%;
+		display: inline-block;
+	}
+
+}

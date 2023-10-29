@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+.single-user-default {
+    display: inline-block;
+    width: 220px;
+    position: relative;
+    margin: 15px 15px;
+    background: #dddddd4d;
+    padding-bottom: 22px;
+    border-radius: 4px;
+    border: 1px solid #ddd6;
+    padding: 15px;
+    text-align: center;
+
+    -webkit-transition: box-shadow 0.3s ease-in-out;
+    -moz-transition: box-shadow 0.3s ease-in-out;
+    -o-transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.single-user-default:hover {
+    background: #e1e1e19c;
+    box-shadow: 0 5px 12px 0px #b3b3b3;
+}
+.single-user-default .cover {
+    height: 90px;
+    overflow: hidden;
+    background: #e1e1e1;
+}
+
+.single-user-default .thumb {
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+    overflow: hidden;
+    position: absolute;
+    top: 72px;
+    left: 38%;
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.3);
+    background: #e1e1e1;
+}
+
+.single-user-default .thumb img {
+    width: 100%;
+    height: auto;
+}
+
+.single-user-default .name {
+    margin-top: 36px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.single-user-default .name a {
+    text-decoration: none;
+    color: #676666 !important;
+}
+.single-user-default .name a:hover{
+    color: #d64040 !important;
+}
+
+.follow {
+    padding: 4px 11px;
+    background: #ddd;
+    border-radius: 3px;
+    font-size: 13px;
+    border-bottom: 2px solid #c8c8c8;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.follow.following {
+    background: #32b9ff;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.single-user-flat {
+    display: block;
+    margin: 10px 0;
+}

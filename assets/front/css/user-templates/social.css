@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+.single-user-social {
+    display: inline-block;
+    vertical-align: top;
+    width: 220px;
+    position: relative;
+    margin: 15px 15px;
+    background: #dddddd4d;
+    padding-bottom: 22px;
+    border-radius: 4px;
+    border: 1px solid #ddd6;
+    padding: 15px;
+    text-align: center;
+
+    -webkit-transition: box-shadow 0.3s ease-in-out;
+    -moz-transition: box-shadow 0.3s ease-in-out;
+    -o-transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.single-user-social:hover {
+    background: #e1e1e19c;
+    box-shadow: 0 5px 12px 0px #b3b3b3;
+}
+.single-user-social .cover {
+    height: 90px;
+    overflow: hidden;
+    background: #e1e1e1;
+}
+
+.single-user-social .thumb {
+    width: 60px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 60px;
+    overflow: hidden;
+    position: absolute;
+    top: 72px;
+    left: 38%;
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.3);
+    background: #e1e1e1;
+}
+
+.single-user-social .thumb img {
+    width: 100%;
+    height: auto;
+}
+
+.single-user-social .name {
+    margin-top: 36px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.single-user-social .name a {
+    text-decoration: none;
+    color: #676666 !important;
+}
+.single-user-social .name a:hover{
+    color: #d64040 !important;
+}
+
+.single-user-social .social-icons {
+    margin-bottom: 12px;
+}
+
+.single-user-social .social-icons .item {
+    color: #fff;
+    padding: 2px 8px;
+    text-decoration: none;
+    font-size: 16px !important;
+    border-radius: 4px;
+    margin: 0 2px !important;
+    display: inline-block !important;
+}
+.single-user-social .user-website a {
+    color: #906106d6 !important;
+    text-decoration: none;
+    font-size: 16px !important;
+}
+
+
+/* .single-user-social .follow {
+    padding: 3px;
+    font-size: 22px;
+    cursor: pointer;
+    float: left;
+    line-height: 18px;
+    border: 1px solid #c117177d;
+    border-radius: 4px;
+    color: #c11717d6;
+
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    -o-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
+}
+.single-user-social .follow.following {
+    border: 1px solid #17aaad;
+    color: #ffffff;
+    background: #17aaad;
+}
+.single-user-social .follow:hover {
+    border: 1px solid #0f797b;
+    color: #ffffff;
+    background: #0d7779;
+} */
