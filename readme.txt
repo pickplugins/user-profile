@@ -4,7 +4,7 @@
 	Tags:  user profile, profile, custom user profile
 	Requires at least: 4.1
 	Tested up to: 6.4
-	Stable tag: 2.0.20
+	Stable tag: 2.0.21
 	License: GPLv2 or later
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -77,7 +77,8 @@ Please find the 'en.po' for default translation file under 'languages' folder an
 
 == Changelog ==
 
-
+= 2.0.21 =
+* 2023-10-29 fix - Escaping issue fixed.
 
 = 2.0.20 =
 * 2023-10-29 fix - general fucntion name modified to avoid conflict.
